@@ -50,7 +50,7 @@ body {
 /* nav */
 .logo {
   width: 200px;
-  margin-left: 150px;
+  margin-left: 100px;
   padding-bottom: 10px; }
 
 .icon {
@@ -77,6 +77,13 @@ body {
   padding-bottom: 70px; }
 
 #hero button {
+  font-size: 12px;
+  font-weight: 200;
+  background: rgba(0, 0, 0, 0.1);
+  border-color: #15a4fa;
+  border-radius: 1px !important;
+  width: 120px;
+  height: 35px;
   margin-bottom: 120px; }
 
 /* About */
@@ -105,12 +112,103 @@ body {
 
 /* Showcase */
 #showcase {
-  background: #f6f9f9; }
+  background: #f6f9f9;
+  height: 700px; }
+
+#showcase .row {
+  margin-bottom: 20px; }
+
+.pic-all {
+  margin-top: 50px; }
+
+.portfo {
+  width: 75%; }
+
+/* Contact */
+#contact {
+  background: url(images/bg-con.png) center center;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  height: 500px;
+  width: 100%;
+  color: #fff; }
+
+.layer {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }
+
+#contact h3 {
+  color: #fff;
+  padding-bottom: 10px; }
+
+#contact p {
+  font-size: 11px;
+  padding-bottom: 50px;
+  color: #999; }
+
+#contact input {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 400px;
+  border-radius: 1px; }
+
+#contact textarea {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 120px;
+  border-radius: 1px;
+  color: #999; }
+
+form {
+  padding-left: 370px; }
+
+.checkbox {
+  width: 400px; }
+
+#contact .label1 {
+  font-size: 10px;
+  width: 150px; }
+
+#contact .checkbox1 {
+  margin-top: 0; }
+
+#contact .btn-primary {
+  font-size: 13px;
+  font-weight: 200;
+  margin-left: 147px;
+  background: rgba(0, 0, 0, 0.1);
+  border-color: #15a4fa;
+  border-radius: 1px !important;
+  width: 100px;
+  height: 30px;
+  text-align: center; }
+
+/* Footer */
+footer {
+  height: 60px; }
+
+footer p {
+  width: 150px;
+  position: absolute;
+  padding-top: 25px; }
+
+footer ul {
+  padding-top: 10px;
+  margin-left: 73%;
+  width: 200px; }
+
+footer ul li {
+  display: inline; }
 
 /* Typography */
 h1 {
-  font-size: 80px;
-  font-weight: 600;
+  font-size: 90px;
+  font-weight: 500;
   padding-top: 150px;
   color: #fff; }
 
